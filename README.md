@@ -2,8 +2,8 @@
 
 ### Table of Contents
 - [Objective](#Objective)
-- Usage[#Usage]
-- References[#References]
+- [Usage](#Usage)
+- [References](#References)
 
 ## Objective
 
