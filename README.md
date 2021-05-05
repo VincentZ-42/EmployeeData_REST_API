@@ -13,6 +13,7 @@
 
 ## References 
 - [https://www.tutorialspoint.com/spring_boot/](https://www.tutorialspoint.com/spring_boot/index.htm)
+- [https://spring.io/guides/tutorials/rest/?fbclid=IwAR0KXMlz4Sk2SydDRWtMLbXQpiL_fMYeFuYJcthGfL7RjAsZcZwEzi8bGqs](https://spring.io/guides/tutorials/rest/?fbclid=IwAR0KXMlz4Sk2SydDRWtMLbXQpiL_fMYeFuYJcthGfL7RjAsZcZwEzi8bGqs)
 - Amigoscode Tutorial on Spring Boot: [Youtube](https://www.youtube.com/watch?v=9SGDpanrc8U)
 - Amigoscode: [GitHub](https://github.com/amigoscode/spring-data-jpa-course)
 
