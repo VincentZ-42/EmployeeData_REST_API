@@ -5,7 +5,7 @@
 - [Usage](#Usage)
 - [References](#References)
 - [Instructions](#Instructions)
-- [Further-Developments](#Further Developments)
+- [Further Developments](#Further-Developments)
 
 ## Objective
 
