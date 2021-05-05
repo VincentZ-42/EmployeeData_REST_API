@@ -8,8 +8,12 @@
 - [Further Developments](#Further-Developments)
 
 ## Objective
+- To build a REST API with Spring Boot and Java to track Employee Data in company
 
 ## Usage
+- Download *** file
+- In Terminal, type "java -jar ***" + ENTER
+- Service will run and you can navigate to
 
 ## References 
 - [https://www.tutorialspoint.com/spring_boot/](https://www.tutorialspoint.com/spring_boot/index.htm)
@@ -36,12 +40,13 @@
   - type "psql" to enter interactive shell
   - type "\l" to see list of databases running on postgres
   - type "CREATE DATABASE employee;"
-  - type "GRANT ALL PRIVILEGES ON "employee" to (User);"
+  - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to (User);"
   - type "\d" to list relations of any database to applications
-  - type "GRANT ALL PRIVILEGES ON "employee" to postgres;"
+  - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to postgres;"
   - type "\c employee" to connect to database on Computer
   - uncomment spring boot start data jpa dependency
-  - YOu will need to connect to database from application as well
+  - Add annotations (@Entity n @Table) to your Employee Class
+  -   Then, You will need to connect to database from application
   - type "SELECT * FROM employee;" to view all data in database
 6. Packaging andusing our API
   - Delete Target folder in IntelliJ
@@ -49,8 +54,10 @@
     a. clean - clears target folder
     b. install - does validate, complie, test, package, and verify code into new target folder
   - You now have a file to run on command line to create multiple instances
-    - Navigate into fodlr with .jar file
+    - Navigate into folder with .jar file
     - run "java -jar demo-*-SNAPSHOT.jar" to run an instance of your server 
+    - Can change server port with command below:
+    - "java -jar demo-*-SNAPSHOT.jar --server.port=8081"
 
 ## Further Developments
 1. Creating full regristration system
