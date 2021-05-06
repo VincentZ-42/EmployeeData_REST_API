@@ -10,7 +10,7 @@
 - [Further Developments](#Further-Developments)
 
 ## Objective
-- To build a REST API with Spring Boot and Java to keep track of Employee Information
+- To build a REST API with Spring Boot and Java in IntelliJ IDEA to keep track of Employee Information
 - Utilize HTTP GET, POST, PUT, and DELETE to interact with Data
 
 ## Usage
