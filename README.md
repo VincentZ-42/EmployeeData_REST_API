@@ -28,9 +28,9 @@
 
 ## Instructions on how to Recreate
 1. Use Spring initializr to create zip file for our project
-- Can use Spring Initializr on IntelliJ IDEA or [https://start.spring.io/](https://start.spring.io/)
-- Select Maven Project, Java 16, package as Jar
-- Add Dependencies: Spring Web, Spring Data JPA, PostgreSQL Driver
+    - Can use Spring Initializr on IntelliJ IDEA or [https://start.spring.io/](https://start.spring.io/)
+    - Select Maven Project, Java 16, package as Jar
+    - Add Dependencies: Spring Web, Spring Data JPA, PostgreSQL Driver
 2. Unzip files and open folder with IntelliJ IDEA
 3. Creating Package of Employee with class of all functions related to Employee
   - Create Class Employee: holds all data and getter/setter functions
