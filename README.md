@@ -33,24 +33,25 @@
     - Add Dependencies: Spring Web, Spring Data JPA, PostgreSQL Driver
 2. Unzip files and open folder with IntelliJ IDEA
 3. Creating Package of Employee with class of all functions related to Employee
-     - Create Class Employee: holds all data and getter/setter functions
-     - Create Class EmployeeController, this will serve as API for GET, POST, PUT, and DELETE to interact with Server Layer
-     - Create Class EmployeeServer, this will serve as functions to interacte with data layer
-     - Create Class EmployeeRepository, this will contain all functions that will interact with database (accessing Data)
-     - Create Class EmployeeConfig, this initializes the known data into database
-5. Creating and connect to database
-      - Used Postgres App to run database server: Link to Download: [https://postgresapp.com/](https://postgresapp.com/)
-      - type "psql" to enter interactive shell
-      - type "\l" to see list of databases running on postgres
-      - type "CREATE DATABASE employee;"
-      - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to (User);"
-      - type "\d" to list relations of any database to applications
-      - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to postgres;"
-      - type "\c employee" to connect to database on Computer
-      - uncomment spring boot start data jpa dependency
-      - Add annotations (@Entity n @Table) to your Employee Class
-      - Then, You will need to connect to database from application
-      - type "SELECT * FROM employee;" to view all data in database
+     - Class Employee: holds all data and getter/setter functions
+     - Class EmployeeController: API Layer that uses GET, POST, PUT, and DELETE to interact with Server Layer
+     - Class EmployeeServer: Server Layer that holds business logic to interacte with Data Access Layer
+     - Class EmployeeRepository, Data Access Layer that will interact with database and sends data to API Layer
+     - Class EmployeeConfig, function that initializes the known data into database
+5. Creating and connecting to database
+      - Used Postgres to run database server: Link to Download: [https://postgresapp.com/](https://postgresapp.com/)
+      - Commands on Terminal
+        - "psql": to enter interactive shell
+        - "\l": to see list of databases running on postgres
+        - type "CREATE DATABASE employee;"
+        - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to (User);"
+        - type "\d" to list relations of any database to applications
+        - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to postgres;"
+        - type "\c employee" to connect to database on Computer
+        - uncomment spring boot start data jpa dependency
+        - Add annotations (@Entity n @Table) to your Employee Class
+        - Then, You will need to connect to database from application
+        - type "SELECT * FROM employee;" to view all data in database
 6. Packaging and using our API
     - On Malvern Tab
         a. clean - clears target folder
