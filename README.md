@@ -1,4 +1,5 @@
 # EmployeeData_REST_API
+A smiple REST API that allows user to interact with data on server about an employee, such as their name, email, phone number, job title, salary, date of birth, and age. You can retrieve data with HTTP GET, or modify data with POST, PUT, and DELETE. 
 
 <img align="right" src="https://user-images.githubusercontent.com/49771001/117326104-553b2e00-ae5f-11eb-855d-8479fb0a4959.jpg">
 
