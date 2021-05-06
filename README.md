@@ -1,4 +1,5 @@
-# REST_API_with_Spring_Boot_Java
+# EmployeeData_REST_API
+![EmployeeData Diagram](https://user-images.githubusercontent.com/49771001/117326104-553b2e00-ae5f-11eb-855d-8479fb0a4959.jpg)
 
 ### Table of Contents
 - [Objective](#Objective)
@@ -8,18 +9,20 @@
 - [Further Developments](#Further-Developments)
 
 ## Objective
-- To build a REST API with Spring Boot and Java to track Employee Data in company
+- To build a REST API with Spring Boot and Java to keep track of Employee Information
+- Utilize HTTP GET, POST, PUT, and DELETE to interact with Data
 
 ## Usage
-- Download *** file
-- In Terminal, type "java -jar ***" + ENTER
-- Service will run and you can navigate to
+- Download EmployeeData.jar
+- In Terminal, type "java -jar EmployeeData.jar" + ENTER  
+- Service will run and you can navigate to localhost:8080/api/v1/employee to view website
 
 ## References 
 - [https://www.tutorialspoint.com/spring_boot/](https://www.tutorialspoint.com/spring_boot/index.htm)
 - [https://spring.io/guides/tutorials/rest/](https://spring.io/guides/tutorials/rest/?fbclid=IwAR0KXMlz4Sk2SydDRWtMLbXQpiL_fMYeFuYJcthGfL7RjAsZcZwEzi8bGqs)
 - Amigoscode Tutorial on Spring Boot: [Youtube](https://www.youtube.com/watch?v=9SGDpanrc8U)
 - Amigoscode: [GitHub](https://github.com/amigoscode/spring-data-jpa-course)
+- [https://www.codecademy.com/articles/what-is-rest](https://www.codecademy.com/articles/what-is-rest)
 
 ## Instructions
 1. Use Spring initializr to create zip file for our project
