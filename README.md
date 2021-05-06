@@ -48,7 +48,6 @@
         - type "\d" to list relations of any database to applications
         - type "GRANT ALL PRIVILEGES ON DATABASE "employee" to postgres;"
         - type "\c employee" to connect to database on Computer
-        - uncomment spring boot start data jpa dependency
         - Add annotations (@Entity n @Table) to your Employee Class
         - Then, You will need to connect to database from application
         - type "SELECT * FROM employee;" to view all data in database
