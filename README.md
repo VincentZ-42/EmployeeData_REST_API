@@ -1,5 +1,6 @@
 # EmployeeData_REST_API
 
+![website picture](https://user-images.githubusercontent.com/49771001/117331084-62a6e700-ae64-11eb-92b5-b341e1c4eaca.png)
 <img align="right" src="https://user-images.githubusercontent.com/49771001/117326104-553b2e00-ae5f-11eb-855d-8479fb0a4959.jpg">
 
 ### Table of Contents
