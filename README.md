@@ -34,8 +34,8 @@
 2. Unzip files and open folder with IntelliJ IDEA
 3. Creating Package of Employee with class of all functions related to Employee
      - Create Class Employee: holds all data and getter/setter functions
-      - Create Class EmployeeController, this will serve as API for GET, POST, PUT, and DELETE to interact with Server Layer
-      - Create Class EmployeeServer, this will serve as functions to interacte with data layer
+     - Create Class EmployeeController, this will serve as API for GET, POST, PUT, and DELETE to interact with Server Layer
+     - Create Class EmployeeServer, this will serve as functions to interacte with data layer
      - Create Class EmployeeRepository, this will contain all functions that will interact with database (accessing Data)
      - Create Class EmployeeConfig, this initializes the known data into database
 5. Creating and connect to database
@@ -52,10 +52,10 @@
       - Then, You will need to connect to database from application
       - type "SELECT * FROM employee;" to view all data in database
 6. Packaging and using our API
-  - On Malvern Tab
-    a. clean - clears target folder
-    b. install - does validate, complie, test, package, and verify code into new target folder
-  - You now have a file to run on command line to create multiple instances
+    - On Malvern Tab
+        a. clean - clears target folder
+        b. install - does validate, complie, test, package, and verify code into new target folder
+    - You now have a file to run on command line to create multiple instances
     - Navigate into folder (target) with .jar file
     - run "java -jar demo-*-SNAPSHOT.jar" to run an instance of your server 
     - Can change server port with command below:
