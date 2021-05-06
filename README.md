@@ -1,5 +1,6 @@
 # EmployeeData_REST_API
-![EmployeeData Diagram](https://user-images.githubusercontent.com/49771001/117326104-553b2e00-ae5f-11eb-855d-8479fb0a4959.jpg)
+
+<img align="right" src="https://user-images.githubusercontent.com/49771001/117326104-553b2e00-ae5f-11eb-855d-8479fb0a4959.jpg">
 
 ### Table of Contents
 - [Objective](#Objective)
