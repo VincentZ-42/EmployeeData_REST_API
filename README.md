@@ -39,7 +39,7 @@
      - Class EmployeeRepository, Data Access Layer that will interact with database and sends data to API Layer
      - Class EmployeeConfig, function that initializes the known data into database
 5. Creating and connecting to database
-      - Used Postgres to run database server: Link to Download: [https://postgresapp.com/](https://postgresapp.com/)
+      - Use Postgres App to run database server: [https://postgresapp.com/](https://postgresapp.com/)
       - Commands on Terminal
         - "psql": to enter interactive shell
         - "\l": to see list of databases running on postgres
