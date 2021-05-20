@@ -1,11 +1,16 @@
 package com.example.employeedata.Employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 // This is the API Layer
 // - Handles HTTP protocols of GET, POST, PUT, n DELETE
@@ -22,9 +27,12 @@ public class EmployeeController {
         this.employeeService = employeeService;
     }
 
-    @GetMapping
-    public List<Employee> getEmployees() {
-        return employeeService.getEmployees();
+    @GetMapping()
+    public List<Employee> getAllEmployees() { return employeeService.getEmployees(); }
+
+    @GetMapping(path = "{employeeId}")
+    public Employee getEmployeeById(@PathVariable("employeeId") Long employeeId) {
+            return employeeService.getEmployeeInfo(employeeId);
     }
 
     @PostMapping

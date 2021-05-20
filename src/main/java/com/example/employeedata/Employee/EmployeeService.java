@@ -23,10 +23,23 @@ public class EmployeeService {
                 this.employeeRepository = employeeRepository;
         }
 
+        // Retrieves all Employee data from server
         public List<Employee> getEmployees() {
                 return employeeRepository.findAll();
         }
 
+        // Retrieves Employee data from server given Employee's id
+        public Employee getEmployeeInfo(Long employeeId) {
+                boolean exists = employeeRepository.existsById(employeeId);
+                if (!exists) {
+                        throw new IllegalStateException(
+                            "employee with id " + employeeId + " does not exists");
+                }
+                //GetOne returns a reference to the entity and does not interact with database
+                return employeeRepository.findById(employeeId).get();
+        }
+
+        // Adds a new Employee into database
         public void addNewEmployee(Employee employee) {
                 Optional<Employee> employeeOptional = employeeRepository
                         .findEmployeeByEmail(employee.getEmail());
@@ -36,6 +49,7 @@ public class EmployeeService {
                 employeeRepository.save(employee);
         }
 
+        // Deletes Employee from database, checking if Employee exists first
         public void deleteEmployee(Long employeeId) {
                 boolean exists = employeeRepository.existsById(employeeId);
                 if (!exists) {
